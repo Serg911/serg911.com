@@ -37,14 +37,9 @@ To make changes tot he contents of the page
     * git push origin master
     * git branch -d [branch name]
 
-* Run the page locally
-    * netlify serve
-    * netlify deploy
-
-    or
-
-    docker-compose build
-    docker-compose up -d
+* Run the page locally and after every update
+    * docker-compose build
+    * docker-compose up -d
 
     View the page locally at:
     http://lvh.me
